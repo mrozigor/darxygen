@@ -12,9 +12,10 @@
 }
 
 body {
-	background: #282923;
+	background: #282828;
 	background-image: none;
 	color: #D8D8D8;
+	scrollbar-color: #303030 #141414;
 }
 
 div.fragment, pre.fragment {
@@ -23,7 +24,11 @@ div.fragment, pre.fragment {
 }
 
 a, a:link, a:visited {
-	color: #67d8ef !important;
+	color: #859ed5 !important;
+}
+
+.arrow {
+	color: #859ed5
 }
 
 .highlighted {
@@ -89,7 +94,7 @@ a.SelectItem:hover {
 #MSearchResultsWindow {
 	border: 1px solid #000000;
 	background: #32363d;
-	color: #67d8ef !important;;
+	color: #859ed5 !important;;
 }
 
 /*********************************************/
@@ -115,10 +120,9 @@ p code,
 li code,
 td code,
 dd code {
-	background-color: #000000;
-	border: 1px solid #A8B8D9;
-
-	color: #D8D8D8;
+	background-color: #14141480;
+	border: 1px solid #ffffff19;
+	color: #b9b9b9;
 }
 
 /*********************************************/
@@ -321,7 +325,7 @@ span.lineno a {
 }
 
 h2.groupheader {
-	color: #67d8ef;
+	color: #859ed5;
 }
 
 /*********************************************/
@@ -420,5 +424,23 @@ td.memItemLeft, td.memItemRight {
 /*********************************************/
 h1.glow, h2.glow, h3.glow,
 h4.glow, h5.glow, h6.glow {
-	text-shadow: 0 0 15px #67d8ef;
+	text-shadow: 0 0 15px #859ed5;
+}
+
+#nav-tree .item {
+	margin: 5px;
+}
+
+#MSearchBox .left{
+	background: none;
+}
+
+#MSearchBox .right{
+	background: none;
+}
+
+#MSearchField {
+	background: none;
+	background-color: transparent;
+	border-bottom: solid 1px;
 }
