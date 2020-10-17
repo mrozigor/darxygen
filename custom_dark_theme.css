@@ -19,7 +19,7 @@ body {
 }
 
 div.fragment, pre.fragment {
-	border: 1px solid #000000;
+	border: 1px solid #ffffff19;
 	background: #32363d;
 }
 
@@ -66,7 +66,7 @@ a.highlighted {
 }
 
 .sm-dox ul {
-	border: 1px solid #000000;
+	border: 1px solid #ffffff19;
 	background: #32363d;
 }
 
@@ -79,7 +79,7 @@ a.highlighted {
 /**               Top search                **/
 /*********************************************/
 #MSearchSelectWindow {
-	border: 1px solid #000000;
+	border: 1px solid #ffffff19;
 	background: #32363d;
 }
 
@@ -92,9 +92,10 @@ a.SelectItem:hover {
 }
 
 #MSearchResultsWindow {
-	border: 1px solid #000000;
+	border: 1px solid #ffffff19;
 	background: #32363d;
-	color: #859ed5 !important;;
+	color: #859ed5 !important;
+	border-radius: 5px;
 }
 
 /*********************************************/
@@ -130,7 +131,7 @@ dd code {
 /*********************************************/
 div.toc {
 	background: #32363d;
-	border: 1px solid #000000;
+	border: 1px solid #ffffff19;
 }
 
 div.toc h3 {
@@ -186,7 +187,7 @@ div.header {
 .tablist a:hover,
 .tablist li.current a {
 	text-decoration: none;
-	color: #000000;
+	color: #101010;
 	background: #CCCCCC;
 	background-image: none;
 }
@@ -333,7 +334,7 @@ h2.groupheader {
 /*********************************************/
 .memtitle {
 	background: #32363d !important;
-	border-color: #000000;
+	border-color: #ffffff19;
 }
 
 .memitem {
@@ -344,7 +345,7 @@ h2.groupheader {
 
 .memproto {
 	background: inherit;
-	border-color: #000000;
+	border-color: #ffffff19;
 	color: inherit;
 	text-shadow: none;
 }
@@ -363,7 +364,7 @@ td.memItemLeft, td.memItemRight {
 
 .memdoc {
 	background: inherit;
-	border-color: #000000;
+	border-color: #ffffff19;
 }
 
 
@@ -441,6 +442,36 @@ h4.glow, h5.glow, h6.glow {
 
 #MSearchField {
 	background: none;
-	background-color: transparent;
 	border-bottom: solid 1px;
+	color: #bbb
+}
+
+.MSearchBoxActive #MSearchField {
+	Color: #fff
+}
+
+.SRSymbol {
+	color:  #B4CCF9;
+}
+
+a.SRScope {
+	color:  #B4CCF9;
+}
+
+.icon {
+    font-family: Arial, Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    background-color: #141414;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 2px;
+    padding-left: 1px;
+    padding-right: 1px;
 }
